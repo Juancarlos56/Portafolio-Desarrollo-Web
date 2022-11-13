@@ -9,6 +9,7 @@
 
         .nav-link-inner--text {
             margin-left: .25rem;
+            font-size: larger;
         }
     }
 }
@@ -77,7 +78,7 @@
         .nav-link-icon {
             padding-left: .5rem !important;
             padding-right: .5rem !important;
-            font-size: 1rem;
+            font-size: 1.35rem;
             border-radius: $navbar-nav-link-border-radius;
 
             i {
