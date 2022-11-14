@@ -1,0 +1,32 @@
+[
+    {
+        "id":1,
+        "nombres":"Python", 
+        "porcentaje":90, 
+        "icono": "./assets/img/icons/piton.png"
+    },
+    {
+        "id":1,
+        "nombres":"Java", 
+        "porcentaje":75, 
+        "icono": "./assets/img/icons/java.png"
+    },
+    {
+        "id":1,
+        "nombres":"TypeScript", 
+        "porcentaje":65, 
+        "icono": "./assets/img/icons/typescript.png"
+    },
+    {
+        "id":1,
+        "nombres":"JavaScript", 
+        "porcentaje":60, 
+        "icono": "./assets/img/icons/js.png"
+    },
+    {
+        "id":1,
+        "nombres":"C++", 
+        "porcentaje":30, 
+        "icono": "./assets/img/icons/c-.png"
+    }
+]

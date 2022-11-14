@@ -1,0 +1,20 @@
+[
+    {
+        "id":1,
+        "nombres":"SonarQube", 
+        "porcentaje":60, 
+        "icono": "./assets/img/icons/SonarQube.png"
+    },
+    {
+        "id":2,
+        "nombres":"Jenkins", 
+        "porcentaje":60, 
+        "icono": "./assets/img/icons/jenkins.png"        
+    },
+    {
+        "id":3,
+        "nombres":"Docker", 
+        "porcentaje":75, 
+        "icono": "./assets/img/icons/docker.png"
+    }
+]

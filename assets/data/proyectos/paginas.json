@@ -1,0 +1,49 @@
+[
+    {
+        "id":1,
+        "nombres":"Simulab", 
+        "categoria":"Aplicación Web",
+        "cliente":"Edutech",
+        "fechaPublicacion":"15-02-2022", 
+        "URL":"https://simulab.edutech-project.org/", 
+        "Tecnologias":["Angular", "Django"], 
+        "descripcion":"", 
+        "fotoPortada": "./assets/img/PaginasWeb/simulab.png",
+        "fotos": ["./assets/img/PaginasWeb/simulab.png"]
+    },
+    {
+        "id":2,
+        "nombres":"Cocoments", 
+        "categoria":"Aplicación Web y Movil",
+        "cliente":"Ing. Remigío Hurtado",
+        "fechaPublicacion":"12-08-2022", 
+        "URL":"Por Desplegar", 
+        "Tecnologias":["IONIC", "Django"], 
+        "descripcion":"", 
+        "fotoPortada": "./assets/img/PaginasWeb/cocoments2.png",
+        "fotos": ["./assets/img/PaginasWeb/cocoments.png"]
+    },
+    {
+        "id":3,
+        "nombres":"Resumen de Texto", 
+        "categoria":"Red Transformer T5",
+        "cliente":"Ing. Remigío Hurtado",
+        "fechaPublicacion":"05-07-2022", 
+        "URL":"https://acortar.link/UJHuDe", 
+        "Tecnologias":["Python", "Torch", "Transformers"], 
+        "descripcion":"", 
+        "fotoPortada": "./assets/img/PaginasWeb/t5.png",
+        "fotos": ["./assets/img/PaginasWeb/simulab.png"]
+    },{
+        "id":4,
+        "nombres":"CarRacing", 
+        "categoria":"Visión Artificial",
+        "cliente":"Ing. Vladimir Robles",
+        "fechaPublicacion":"25-08-2021", 
+        "URL":"https://youtu.be/WJpKRabxp94", 
+        "Tecnologias":["Python", "OpenIA GYM", "Opencv"], 
+        "descripcion":"", 
+        "fotoPortada": "./assets/img/PaginasWeb/carracing.png",
+        "fotos": ["./assets/img/PaginasWeb/simulab.png"]
+    }
+]

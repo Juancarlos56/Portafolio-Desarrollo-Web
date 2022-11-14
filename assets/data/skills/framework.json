@@ -1,0 +1,26 @@
+[
+    {
+        "id":1,
+        "nombres":"Angular", 
+        "porcentaje":90, 
+        "icono": "./assets/img/icons/angular.png"
+    },
+    {
+        "id":1,
+        "nombres":"Django", 
+        "porcentaje":90, 
+        "icono": "./assets/img/icons/dj.png"
+    },
+    {
+        "id":1,
+        "nombres":"IONIC", 
+        "porcentaje":80, 
+        "icono": "./assets/img/icons/ionic.png"
+    },
+    {
+        "id":1,
+        "nombres":"Spring Boot", 
+        "porcentaje":40, 
+        "icono": "./assets/img/icons/boot_spring.png"
+    }
+]
