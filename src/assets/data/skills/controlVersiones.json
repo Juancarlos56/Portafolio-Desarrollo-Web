@@ -1,0 +1,14 @@
+[
+    {
+        "id":1,
+        "nombres":"Git", 
+        "porcentaje":90, 
+        "icono": "./assets/img/icons/git.png"
+    },
+    {
+        "id":2,
+        "nombres":"GitHub", 
+        "porcentaje":80, 
+        "icono": "./assets/img/icons/github.png"
+    }
+]

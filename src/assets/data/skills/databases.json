@@ -1,0 +1,38 @@
+[
+    {
+        "id":1,
+        "nombres":"Oracle", 
+        "porcentaje":90, 
+        "icono": "./assets/img/icons/oracle.png"
+    },
+    {
+        "id":2,
+        "nombres":"PostgreSQL", 
+        "porcentaje":80, 
+        "icono": "./assets/img/icons/postgre.png"
+    },
+    {
+        "id":3,
+        "nombres":"Firebase", 
+        "porcentaje":80, 
+        "icono": "./assets/img/icons/firebase.png"
+    },
+    {
+        "id":4,
+        "nombres":"MySQL", 
+        "porcentaje":60, 
+        "icono": "./assets/img/icons/mysql.png"
+    },
+    {
+        "id":5,
+        "nombres":"MariaDB", 
+        "porcentaje":60, 
+        "icono": "./assets/img/icons/mariadb.png"
+    },
+    {
+        "id":6,
+        "nombres":"Apache Hive", 
+        "porcentaje":20, 
+        "icono": "./assets/img/icons/apache_hive.png"
+    }
+]

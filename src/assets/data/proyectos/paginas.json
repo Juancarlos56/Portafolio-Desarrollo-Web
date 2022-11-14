@@ -12,7 +12,7 @@
         "fotos": ["./assets/img/PaginasWeb/simulab.png"]
     },
     {
-        "id":1,
+        "id":2,
         "nombres":"Cocoments", 
         "categoria":"Aplicación Web y Movil",
         "cliente":"Ing. Remigío Hurtado",
@@ -20,8 +20,8 @@
         "URL":"Por Desplegar", 
         "Tecnologias":["IONIC", "Django"], 
         "descripcion":"", 
-        "fotoPortada": "./assets/img/PaginasWeb/simulab.png",
-        "fotos": ["./assets/img/PaginasWeb/simulab.png"]
+        "fotoPortada": "./assets/img/PaginasWeb/cocoments2.png",
+        "fotos": ["./assets/img/PaginasWeb/cocoments.png"]
     },
     {
         "id":3,
@@ -32,7 +32,7 @@
         "URL":"https://acortar.link/UJHuDe", 
         "Tecnologias":["Python", "Torch", "Transformers"], 
         "descripcion":"", 
-        "fotoPortada": "./assets/img/PaginasWeb/simulab.png",
+        "fotoPortada": "./assets/img/PaginasWeb/t5.png",
         "fotos": ["./assets/img/PaginasWeb/simulab.png"]
     },{
         "id":4,
@@ -43,7 +43,7 @@
         "URL":"https://youtu.be/WJpKRabxp94", 
         "Tecnologias":["Python", "OpenIA GYM", "Opencv"], 
         "descripcion":"", 
-        "fotoPortada": "./assets/img/PaginasWeb/simulab.png",
+        "fotoPortada": "./assets/img/PaginasWeb/carracing.png",
         "fotos": ["./assets/img/PaginasWeb/simulab.png"]
     }
 ]

@@ -1,0 +1,26 @@
+[
+    {
+        "id":1,
+        "nombres":"Wildfly", 
+        "porcentaje":60, 
+        "icono": "./assets/img/icons/wildfly.png"
+    },
+    {
+        "id":2,
+        "nombres":"Glassfish", 
+        "porcentaje":60, 
+        "icono": "./assets/img/icons/glassfish.png"
+    },
+    {
+        "id":3,
+        "nombres":"Microsoft Azure", 
+        "porcentaje":65, 
+        "icono": "./assets/img/icons/azure.png"
+    },
+    {
+        "id":4,
+        "nombres":"Google Cloud", 
+        "porcentaje":65, 
+        "icono": "./assets/img/icons/google_cloud.png"
+    }
+]

@@ -1,0 +1,20 @@
+[
+    {
+        "id":1,
+        "nombres":"Scrum", 
+        "porcentaje":90, 
+        "icono": "./assets/img/icons/scrum.png"
+    },
+    {
+        "id":2,
+        "nombres":"Espiral", 
+        "porcentaje":90, 
+        "icono": "./assets/img/icons/spiral.png"
+    },
+    {
+        "id":3,
+        "nombres":"Jira", 
+        "porcentaje":60, 
+        "icono": "./assets/img/icons/jira.png"
+    }
+]
