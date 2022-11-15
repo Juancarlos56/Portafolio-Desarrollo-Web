@@ -236,7 +236,7 @@
       </div>
       <div class="row">
         <div class="col-lg-4">
-          <h3 class="h4 text-success font-weight-bold mb-4">Lenguajes de Programación:</h3>
+          <h3 class="h4 texto_bueno font-weight-bold mb-4">Lenguajes de Programación:</h3>
           <div class="progress-wrapper" *ngFor="let lenguaje of listaLenguajeProgramacion" >
             <div class="progress-info">
               <div style="padding: 0.25rem 1rem;">
@@ -250,7 +250,7 @@
             <ngb-progressbar type="primary" value="{{lenguaje.porcentaje}}"></ngb-progressbar>
           </div>
 
-          <h3 class="h4 text-success font-weight-bold mb-4">Framework</h3>
+          <h3 class="h4 texto_bueno font-weight-bold mb-4">Framework</h3>
           <div class="progress-wrapper" *ngFor="let framework of listaFrameworks" >
             <div class="progress-info">
               <div style="padding: 0.25rem 1rem;">
@@ -266,7 +266,7 @@
         </div>
 
         <div class="col-lg-4">
-          <h3 class="h4 text-success font-weight-bold mb-4">Base de datos:</h3>
+          <h3 class="h4 texto_bueno font-weight-bold mb-4">Base de datos:</h3>
           <div class="progress-wrapper" *ngFor="let database of listaBasesDatos" >
             <div class="progress-info">
               <div style="padding: 0.25rem 1rem;">
@@ -280,7 +280,7 @@
             <ngb-progressbar type="primary" value="{{database.porcentaje}}"></ngb-progressbar>
           </div>
 
-          <h3 class="h4 text-success font-weight-bold mb-4">Servidores:</h3>
+          <h3 class="h4 texto_bueno font-weight-bold mb-4">Servidores:</h3>
           <div class="progress-wrapper" *ngFor="let servidoritem of listaServidores" >
             <div class="progress-info">
               <div style="padding: 0.25rem 1rem;">
@@ -296,7 +296,7 @@
         </div>
 
         <div class="col-lg-4">
-          <h3 class="h4 text-success font-weight-bold mb-4">Control de Versiones</h3>
+          <h3 class="h4 texto_bueno font-weight-bold mb-4">Control de Versiones</h3>
           <div class="progress-wrapper" *ngFor="let control of listaControlVersion" >
             <div class="progress-info">
               <div style="padding: 0.25rem 1rem;">
@@ -310,7 +310,7 @@
             <ngb-progressbar type="primary" value="{{control.porcentaje}}"></ngb-progressbar>
           </div>
 
-          <h3 class="h4 text-success font-weight-bold mb-4">Metodologías Agiles</h3>
+          <h3 class="h4 texto_bueno font-weight-bold mb-4">Metodologías Agiles</h3>
           <div class="progress-wrapper" *ngFor="let metodologia of listaMetodologias" >
             <div class="progress-info">
               <div style="padding: 0.25rem 1rem;">
@@ -323,7 +323,7 @@
             </div>
             <ngb-progressbar type="primary" value="{{metodologia.porcentaje}}"></ngb-progressbar>
           </div>
-          <h3 class="h4 text-success font-weight-bold mb-4">Herramientas de Control e Integración</h3>
+          <h3 class="h4 texto_bueno font-weight-bold mb-4">Herramientas de Control e Integración</h3>
           <div class="progress-wrapper" *ngFor="let integracion of listaIntegracion" >
             <div class="progress-info">
               <div style="padding: 0.25rem 1rem;">
@@ -341,37 +341,66 @@
     </div>
   </section>
   
-  <section class="section section-lg bg-gradient-default">
+  <section class="section section-lg bg-gradient-default" style="padding-top: 0 !important; padding-bottom: 0 !important;">
     <div class="container pt-lg pb-300">
       <div class="row text-center justify-content-center">
         <div class="col-lg-10">
-          <h2 class="display-3 text-white">Build something</h2>
-          <p class="lead text-white">According to the National Oceanic and Atmospheric Administration, Ted, Scambos, NSIDClead scentist, puts the potentially record low maximum sea ice extent tihs year down to low ice.</p>
+          <h2 class="display-3 text-white">Experiencia</h2>
+          <p class="lead text-white">Durante mi etapa académica he estado involucrado en proyectos de desarrollo web, a continuación, uno de los mas grandes en los que he trabajado.</p>
+        </div>
+        <div class="text-center justify-content-center">
+          <iframe width="560" height="315" src="https://www.youtube.com/embed/m7ALu5CXBJA" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
         </div>
       </div>
+      
       <div class="row row-grid mt-5">
-        <div class="col-lg-4">
-          <div class="icon icon-lg icon-shape bg-gradient-white shadow rounded-circle text-primary">
-            <i class="ni ni-settings text-primary"></i>
-          </div>
-          <h5 class="text-white mt-3">Building tools</h5>
-          <p class="text-white mt-3">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+        <div class="col-lg-3">
+          <h5 class="text-white mt-3">
+            <div class="icon icon-xl icon-shape bg-gradient-white shadow rounded-circle text-primary" style="margin-right: 1rem;">
+              <a href="https://www.flaticon.com/free-icons/ux" title="ux icons"><img src="./assets/img/icons/angular.png" class="img-fluid"></a>
+            </div>
+            FrontEnd
+          </h5>
+          <p class="text-white mt-3">Proyecto realizado en Angular, parte publica, gestión de Usuarios, autentificación, paginas propias para estudiantes y evaluadores.</p>
         </div>
-        <div class="col-lg-4">
-          <div class="icon icon-lg icon-shape bg-gradient-white shadow rounded-circle text-primary">
-            <i class="ni ni-ruler-pencil text-primary"></i>
-          </div>
-          <h5 class="text-white mt-3">Grow your market</h5>
-          <p class="text-white mt-3">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+
+        <div class="col-lg-3">
+          <h5 class="text-white mt-3">
+            <div class="icon icon-xl icon-shape bg-gradient-white shadow rounded-circle text-primary" style="margin-right: 1rem;">
+              <a href="https://www.flaticon.com/free-icons/ux" title="ux icons"><img src="./assets/img/icons/dj.png" class="img-fluid"></a>
+            </div>
+            BackEnd
+          </h5>
+          <p class="text-white mt-3">Proyecto realizado en Django, servicio Rest para consumo de FrontEnd como API, se trabaja con una base de datos PostgreSQL</p>
         </div>
-        <div class="col-lg-4">
-          <div class="icon icon-lg icon-shape bg-gradient-white shadow rounded-circle text-primary">
-            <i class="ni ni-atom text-primary"></i>
-          </div>
-          <h5 class="text-white mt-3">Launch time</h5>
-          <p class="text-white mt-3">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+        
+        <div class="col-lg-3">
+          <h5 class="text-white mt-3">
+            <div class="icon icon-xl icon-shape bg-gradient-white shadow rounded-circle text-primary" style="margin-right: 1rem;">
+              <a href="https://www.flaticon.com/free-icons/ux" title="ux icons"><img src="./assets/img/icons/unity.png" class="img-fluid"></a>
+            </div>
+            Unity
+          </h5>
+          <p class="text-white mt-3">Proyecto realizado en Unity, desarrollo de simuladores laborales en 3D, desplegado como web para la utilización dentro de la paginas web.</p>
         </div>
+
+        <div class="col-lg-3">
+          <h5 class="text-white mt-3">
+            <div class="icon icon-xl icon-shape bg-gradient-white shadow rounded-circle text-primary" style="margin-right: 1rem;">
+              <a href="https://www.flaticon.com/free-icons/ux" title="ux icons"><img src="./assets/img/icons/nginx.png" class="img-fluid"></a>
+            </div>
+            Despliegue
+          </h5>
+          <p class="text-white mt-3">Proyecto desplegado en Nginx, mediante Gunicorn dentro de un servidor linux (ubuntu 20), mediante Guacamole.</p>
+        </div>        
       </div>
+      <div class="btn-wrapper text-center justify-content-center" style="margin-top: 1rem;">
+        <a href="./assets/pdf/Curriculum-JuanBarrera.pdf" target="_blank" download="Curriculum-JuanBarrera.pdf" class="btn btn-white btn-icon mb-3 mb-sm-0">
+          <span class="btn-inner--icon"><i class="ni ni-cloud-download-95"></i></span>
+          <span class="btn-inner--text">Download CV para revisar más experiencia</span>
+        </a>
+      </div>   
+
     </div>
     <!-- SVG separator -->
     <div class="separator separator-bottom separator-skew zindex-100">
@@ -380,90 +409,46 @@
       </svg>
     </div>
   </section>
-  <section class="section section-lg pt-lg-0 section-contact-us">
-    <div class="container">
-      <div class="row justify-content-center mt--300">
-        <div class="col-lg-8">
-          <div class="card bg-gradient-secondary shadow">
-            <div class="card-body p-lg-5">
-              <h4 class="mb-1">Want to work with us?</h4>
-              <p class="mt-0">Your project is very important to us.</p>
-              <div class="form-group mt-5" [ngClass]="{'focused':focus===true}">
-                <div class="input-group input-group-alternative">
-                  <div class="input-group-prepend">
-                    <span class="input-group-text"><i class="ni ni-user-run"></i></span>
-                  </div>
-                  <input class="form-control" placeholder="Your name" type="text" (focus)="focus=true" (blur)="focus=false">
-                </div>
-              </div>
-              <div class="form-group" [ngClass]="{'focused':focus1===true}">
-                <div class="input-group input-group-alternative">
-                  <div class="input-group-prepend">
-                    <span class="input-group-text"><i class="ni ni-email-83"></i></span>
-                  </div>
-                  <input class="form-control" placeholder="Email address" type="email" (focus)="focus1=true" (blur)="focus1=false">
-                </div>
-              </div>
-              <div class="form-group mb-4">
-                <textarea class="form-control form-control-alternative" name="name" rows="4" cols="80" placeholder="Type a message..."></textarea>
-              </div>
-              <div>
-                <button type="button" class="btn btn-default btn-round btn-block btn-lg">Send Message</button>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-    </div>
-  </section>
+
   <section class="section section-lg">
     <div class="container">
       <div class="row row-grid justify-content-center">
+        <div class="col-lg-4">
+          <img src="./assets/img/brand/5.jpg" class="img-fluid" alt="">
+        </div>
         <div class="col-lg-8 text-center">
-          <h2 class="display-3">Do you love this awesome
-            <span class="text-success">Design System for Angular?</span>
-          </h2>
-          <p class="lead">Cause if you do, it can be yours for FREE. Hit the button below to navigate to Creative Tim where you can find the Design System in Angular. Start a new project or give an old Angular project a new look!</p>
-          <div class="btn-wrapper">
-            <a href="https://www.creative-tim.com/product/Portafolio-Desarrollo-Web?ref=adsa-landing-page" class="btn btn-primary mb-3 mb-sm-0">Download Angular</a>
-          </div>
-          <div class="text-center">
-            <h4 class="display-4 mb-5 mt-5">Available on these technologies</h4>
-            <div class="row justify-content-center">
-              <div class="col-lg-2 col-4">
-                <a href="https://www.creative-tim.com/product/argon-design-system?ref=adsa-landing-page" target="_blank" placement="top" ngbTooltip="Bootstrap 4 - Most popular front-end component library">
-                  <img src="https://s3.amazonaws.com/creativetim_bucket/tim_static_images/presentation-page/bootstrap.jpg" class="img-fluid">
-                </a>
-              </div>
-              <div class="col-lg-2 col-4">
-                <a href="https://www.creative-tim.com/product/Portafolio-Desarrollo-Web?ref=adsa-landing-page" target="_blank" placement="top" ngbTooltip="Angular - One framework. Mobile &amp; desktop">
-                  <img src="https://s3.amazonaws.com/creativetim_bucket/tim_static_images/presentation-page/angular.jpg" class="img-fluid">
-                </a>
-              </div>
-              <div class="col-lg-2 col-4">
-                <a href="https://www.creative-tim.com/product/vue-argon-design-system?ref=adsa-landing-page" target="_blank" placement="top" ngbTooltip="Vue.js - The progressive javascript framework">
-                  <img src="https://s3.amazonaws.com/creativetim_bucket/tim_static_images/presentation-page/vue.jpg" class="img-fluid">
-                </a>
-              </div>
-              <div class="col-lg-2 col-4">
-                <a href="https://www.sketchapp.com/?ref=creative-tim" target="_blank" placement="top" ngbTooltip="[Coming Soon] Sketch - Digital design toolkit">
-                  <img src="https://s3.amazonaws.com/creativetim_bucket/tim_static_images/presentation-page/sketch.jpg" class="img-fluid opacity-3">
-                </a>
-              </div>
-              <div class="col-lg-2 col-4">
-                <a href="https://www.adobe.com/products/photoshop.html?ref=creative-tim" target="_blank" placement="top" ngbTooltip="[Coming Soon] Adobe Photoshop - Software for digital images manipulation">
-                  <img src="https://s3.amazonaws.com/creativetim_bucket/tim_static_images/presentation-page/ps.jpg" class="img-fluid opacity-3">
-                </a>
-              </div>
-              <div class="col-lg-2 col-4">
-                <a href="https://reactjs.org/?ref=creative-tim" target="_blank" placement="top" ngbTooltip="[Coming Soon] React - A JavaScript library for building user interfaces">
-                  <img src="https://s3.amazonaws.com/creativetim_bucket/tim_static_images/presentation-page/react.jpg" class="img-fluid opacity-3">
-                </a>
-              </div>
-            </div>
+          <h2 class="display-3">Soy Juan Carlos Barrera Barrera</h2>
+          <span class="texto_bueno" style="font-size: 20px;">Analista de datos | Desarrollador Web y Móvil</span>
+
+          <p class="lead" style="font-size: 1.1rem !important;">Actualmente graduado de la carrera de
+            Ingeniería en ciencias de la Computación
+            (agosto 2022), experiencia en
+            desarrollado web y móvil, ejerciendo
+            como desarrollador Full-Stack en grupos
+            de alto rendimiento, también poseo
+            conocimiento en ciencia de datos
+            trabajando en proyectos universitarios y
+            personales, experiencia trabajando con
+            metodologías águilas, conocimiento en
+            variedad de lenguajes de programación
+            y frameworks de desarrollador web y
+            móvil.
+          </p>
+
+          <div class="lead" style="font-size: 1rem !important; text-align: left;">
+            
+              <ul>
+                <li><strong>Fecha de Nacimiento: </strong> <span> 20 de Julio de 1998</span></li>
+                <li><strong>Website: </strong> <a href="https://juancarlos56.github.io/Portafolio-Desarrollo-Web/"><span> https://juancarlos56.github.io/Portafolio-Desarrollo-Web/</span></a></li>
+                <li><strong>Celular: </strong> <a href="tel:593990453961"><span>0990453961</span></a> </li>
+                <li><strong>Ciudad: </strong> <span>Paute-Azuay-Ecuador</span></li>
+                <li><strong>Título: </strong> <span>Ingeniero en Ciencias de la Computación</span></li>
+                <li><strong>Correo: </strong> <a href="mailto:barrerajuan930@gmail.com"><span>barrerajuan930@gmail.com</span></a></li>
+              </ul>
           </div>
         </div>
       </div>
     </div>
+    
   </section>
 </main>
