@@ -1,2 +1,2 @@
-# Sitio web para portafolio de Proyecto 
+# Sitio web para portafolio de Proyectos
 ## Creado por: Juan Barrera
